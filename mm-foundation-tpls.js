@@ -469,9 +469,7 @@ angular.module('mm.foundation.dropdownToggle', [ 'mm.foundation.position', 'mm.f
 
           dropdown.css(css);
 
-          if (parentHasDropdown()) {
-            parent.addClass('hover');
-          }
+          parent.addClass('hover');
 
           openElement = element;
 
